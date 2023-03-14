@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-
+import OTP from './OTP';
 const Landing = () => {
   return (
     <>
@@ -33,6 +33,7 @@ const Landing = () => {
           Login
         </Link>
       </main>
+      <OTP/>
     </>
   );
 };
